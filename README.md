@@ -5,26 +5,18 @@ dagr.py (deviantArt gallery ripper) is a deviantArt image downloader script writ
 ###  Usage
 Here's an example of how to use the script:
 
-> $ python dagr.py
-
-> dagr.py v0.1 - deviantArt gallery ripper
-
-> Usage: dagr.py [-u username] [-p password] [-hfgsv] [deviant]...
-
-> Example: dagr.py -u user -p 1234 -gsfv blah55 blah11
-
-> $ python dagr.py -u username -p password -gs doo22
-
-> dagr.py v0.1 - deviantart gallery ripper
-
-> Attempting to log in to deviantArt...
-
-> Logged in!
-
-> Current deviant: doo22
-
-> Ripping doo22's gallery...
-
+```
+$ python dagr.py
+dagr.py v0.1 - deviantArt gallery ripper
+Usage: dagr.py [-u username] [-p password] [-hfgsv] [deviant]...
+Example: dagr.py -u user -p 1234 -gsfv blah55 blah11
+$ python dagr.py -u username -p password -gs doo22
+dagr.py v0.1 - deviantart gallery ripper
+Attempting to log in to deviantArt...
+Logged in!
+Current deviant: doo22
+Ripping doo22's gallery...
+```
 
 ### FAQ
 - Will I be banned from deviantArt if I use dagr.py?
