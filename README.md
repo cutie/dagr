@@ -1,8 +1,8 @@
-###  dagr
+###  dagr.py
 ====
-dagr.py is a deviantArt image downloader script written in Python. dagr.py can download every image (deviation) in a gallery, as well as every favorited deviation a deviant may have.
+dagr.py (deviantArt gallery ripper) is a deviantArt image downloader script written in Python. dagr.py can download every image (deviation) in a gallery, as well as every favorited deviation a deviant may have.
 
-###  USAGE
+###  Usage
 Here's an example of how to use the script:
 
 > $ python dagr.py
@@ -18,14 +18,11 @@ Here's an example of how to use the script:
 
 
 ### FAQ
-Will I be banned from deviantArt if I use dAgr?
-Not likely. However, dAgr could be blocked at any time. If you want to be sure your main account isn't banned, use a disposable account and a proxy.
+Will I be banned from deviantArt if I use dagr.py?
+Not likely. However, dagr.py could be blocked at any time. If you want to be sure your main account isn't banned, use a disposable account and a proxy.
 
 The deviantArt page says a deviant has 145 deviations but the program can only find 139!
 Sometimes deviantArt reports the wrong number of deviations in a gallery. This is because you can submit deviations exclusively to a group without having it show up in your gallery.
-
-Why does the program not run or produce an error message when I run it?
-Be sure you have installed the Microsoft .NET Framework 3.5 or above or are running Windows Vista or above.
 
 Why can I not download mature deviations?
 You must use a deviantArt account that is able to view such deviations, and has "Show Deviations with Mature Content" enabled under Settings > Browsing.
